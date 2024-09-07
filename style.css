@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 240, 100);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.head-text-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 10px;
+    margin: 0;
+    width: 300px;
+    height: 40px;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.con-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 60vh;
+    background-color: #333;
+    color: #333;
+    border-radius: 10px;
+}
+
+.con-style input{
+    width: 200px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.con-style input::placeholder{
+    font-size: 14px;
+}
+
+#the-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.signs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    row-gap: 7px;
+}
+
+.signs div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.signs div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.guide{
+    font-size: 16px;
+    color: #FFF;
+}
+
+.equal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;    
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    width: max-content;
+    height: 35px;
+    background-color: #333;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calculator.svg">
+</head>
+<body>
+
+
+    <div class="head-text">
+        <h2 class="head-text-style">Calculator</h2>
+    </div>
+
+    <div class="con">
+
+        <div class="con-style">
+            
+            <input type="text" id="firstInput" value="" placeholder="Enter the first number">
+            <div id="the-sign"></div>
+            <input type="text" id="secondInput" value="" placeholder="Enter the second number">
+            <div class="guide">Chose a sign</div>
+            <div class="signs">
+                <div onclick="plusSign();">+</div>
+                <div onclick="minesSign();">-</div>
+                <div onclick="multiSign();">*</div>
+                <div onclick="divSign();">/</div>
+                <div onclick="resetSign();">reset</div>
+            </div>
+            <button class="equal" onclick="equal();">=</button>
+            <div id="result">0</div>
+
+        </div>
+
+    </div>
+
+
+    <script src="control.js"></script>
+
+</body>
+</html>
